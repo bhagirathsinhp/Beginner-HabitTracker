@@ -95,6 +95,24 @@ Pixela is a free web service that lets you create visual habit-tracking graphs j
 
 ---
 
+## 📌 Notes
+
+- The user creation and graph creation sections are wrapped in a loop with create_once to prevent accidental re-creation.
+
+- The Pixela service provides a web-based visualization for your data at:
+
+      https://pixe.la/v1/users/<USERNAME>/graphs/<GRAPH_ID>.html
+
+- The graph color, unit, and type can be customized.
+
+---
+
+## 👤 Author
+
+[![GitHub: bhagirathsinhp](https://img.shields.io/github/followers/bhagirathsinhp?label=Follow&style=social)](https://github.com/bhagirathsinhp)
+[![LinkedIn: Bhagirath Parmar](https://img.shields.io/badge/-Bhagirath%20Parmar-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/bhagirath-parmar-385865269/)](https://www.linkedin.com/in/bhagirath-parmar-385865269/)
+
+
 
 
 
