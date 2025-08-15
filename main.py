@@ -45,6 +45,7 @@ pixel_data = {
 }
 
 create_once = False
+# while not create_once: (use when creating user the first time and then go with the following)
 while create_once:
     # Create User:
     create_user_request = requests.post(url=PIXELA_ENDPOINT, json=create_user_params)
@@ -58,7 +59,6 @@ while create_once:
     graph_edit_request = requests.put(url=GRAPH_ID_ENDPOINT, json={"unit": "Hour(s)"}, headers=graph_header)
     print(graph_edit_request.text)
 
-    create_once = True
 
 # Post a Pixel:
 post_pixel = requests.post(url=GRAPH_ID_ENDPOINT, json=pixel_data, headers=graph_header)
